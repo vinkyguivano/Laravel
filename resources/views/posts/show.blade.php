@@ -13,7 +13,7 @@
       <small> Author : {{$post->user->name}}</small> 
     </div>
     <hr>
-    <p> T{{$post->body}} </p> 
+    <p> {{$post->body}} </p> 
 
     @can('delete', $post)
       
